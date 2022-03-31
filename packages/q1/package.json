@@ -1,0 +1,19 @@
+{
+  "name": "@allmedia/q1",
+  "version": "0.0.1",
+  "author": "Jack Henry",
+  "type": "commonjs",
+  "main": "dist/api.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "scripts": {
+    "build": "tsc",
+    "start": "yarn build && node dist/index.js"
+  }
+}

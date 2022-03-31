@@ -1,0 +1,7 @@
+node_modules
+.devcontainer
+packages/*/dist
+packages/*/build
+packages/*/lib
+
+tsconfig.tsbuildinfo

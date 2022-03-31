@@ -1,0 +1,26 @@
+{
+  "name": "@allmedia/q3",
+  "version": "0.0.1",
+  "author": "Jack Henry",
+  "type": "commonjs",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "license": "MIT",
+  "directories": {
+    "dist": "dist"
+  },
+  "files": [
+    "dist"
+  ],
+  "dependencies": {
+    "@allmedia/q1": "^0.0.1"
+  },
+  "scripts": {
+    "build:tsc": "tsc",
+    "build": "yarn build:tsc && webpack && cp index.html ./build/index.html"
+  },
+  "devDependencies": {
+    "webpack": "^5.70.0",
+    "webpack-cli": "^4.9.2"
+  }
+}

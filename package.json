@@ -1,0 +1,34 @@
+{
+  "name": "allmedia",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "version": "0.0.1",
+  "description": "AllMediaDesk Interview Questions",
+  "main": "index.ts",
+  "author": "Jack Henry",
+  "license": "MIT",
+  "scripts": {
+    "build": "tsc --build",
+    "q1": "yarn workspace @allmedia/q1",
+    "q2": "yarn workspace @allmedia/q2",
+    "q3": "yarn workspace @allmedia/q3"
+  },
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.17.0",
+    "@typescript-eslint/parser": "^5.17.0",
+    "eslint": "^8.12.0",
+    "eslint-config-airbnb": "^19.0.4",
+    "eslint-import-resolver-typescript": "^2.7.0",
+    "eslint-plugin-import": "^2.25.4",
+    "eslint-plugin-jsx-a11y": "^6.5.1",
+    "eslint-plugin-react": "^7.29.4",
+    "eslint-plugin-react-hooks": "^4.4.0",
+    "ts-node": "^10.7.0"
+  },
+  "dependencies": {
+    "@types/node": "^17.0.23",
+    "typescript": "^4.6.3"
+  }
+}
