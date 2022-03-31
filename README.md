@@ -13,7 +13,8 @@ From root of the project:
 ```
 // build the projects
 yarn build
-yarn q3 start 
+// You shouldn't have to run this, but just in case
+yarn q3 build 
 ```
 The build folder will contain an index.html that can be opened through the web browser.
 
@@ -23,3 +24,5 @@ From root of project:
 // yarn q2 start <number to solve the problem for>
 yarn q2 start 1111110
 ```
+
+Please note that I wrote this all on linux. I think the npm scripts should work on windows though.
